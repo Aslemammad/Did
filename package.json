@@ -1,0 +1,23 @@
+{
+    "name": "did",
+    "version": "1.0.0",
+    "description": "An amazing tool to change the wallpaper ",
+    "main": "run.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "wallpapers"
+    ],
+    "author": "AsleMammad",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "cheerio": "^1.0.0-rc.3",
+        "forever-monitor": "^2.0.0",
+        "image-downloader": "^3.5.0",
+        "mkdirp": "^1.0.3",
+        "wallpaper": "^4.4.1",
+        "whiptail": "^1.6.2"
+    }
+}
