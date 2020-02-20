@@ -7,9 +7,8 @@ Type:
 `./run.js -h` *for help*
 ## install
 In your Shell:
-`npm install .`
-`chmod +x ./run.js`
-`./run.js -s` *to set the config*
-`./run.js` *to run or add to the startup*
-    
 
+    npm install .
+    chmod +x ./run.js
+    ./run.js -s // to set the config
+    ./run.js // to run the script
