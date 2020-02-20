@@ -40,7 +40,6 @@ for (let counter = 0; counter < args.length; counter++) {
 				selectedTopics : await selectTopics(returnTitle(topics)),
 				delay
 			});
-			infiniteChild.start();
 		})();
 	} else if (!args[2]) {
 		if (checkConfig()) {
