@@ -44,7 +44,9 @@ for (let counter = 0; counter < args.length; counter++) {
 		})();
 	} else if (!args[2]) {
 		if (checkConfig()) {
-			infiniteChild.start();
+			(async function() {
+				infiniteChild.restart();
+			})();		
 		} else {
 			console.log('there is no config, please run the command with -s arg');
 		}
