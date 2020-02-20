@@ -11,4 +11,4 @@ In your Shell:
     npm install .
     chmod +x ./run.js
     ./run.js -s // to set the config
-    ./run.js // to run the script
+    ./run.js // to run the script or add to startup
