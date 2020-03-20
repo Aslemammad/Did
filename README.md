@@ -6,8 +6,7 @@
 Have a live wallpaper via Did on your local system. Rolling wallpaper right on your desktop. Set it up with your favorite album. Just walk through these steps to make one for yourself.
 
 # Installation
-Type the following commands one by one on your bash shell.
-
+Type the following commands one by one on your bash shell.(if you had error you might try cnpm instead of npm)
     $ npm install .
     $ chmod +x ./run.js
     $ ./run.js -s // to set the config
